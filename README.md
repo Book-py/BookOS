@@ -14,7 +14,7 @@ BookOS is a simple to use, lightweight, open source command line interface (gui 
 * Install [docker](https://www.docker.com/)
 * Install a virtual environment
 
-#### Windows
+### Windows
 * Run the follwoing commands:
 ```bash
 docker build buildenv -t {name}
