@@ -19,7 +19,7 @@ BookOS is a simple to use, lightweight, open source command line interface (gui 
 ```bash
 docker build buildenv -t {name}
 # Command prompt
-docker run --rm -it -v %cd%:/root/env {name}
+docker run --rm -it -v "%cd%":/root/env {name}
 # Powershell
 docker run --rm -it -v "${pwd}:/root/env" {name}
 ```
